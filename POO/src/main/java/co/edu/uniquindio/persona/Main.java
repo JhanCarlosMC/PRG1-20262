@@ -1,4 +1,4 @@
-package co.edu.uniquindio;
+package co.edu.uniquindio.persona;
 
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
@@ -7,6 +7,9 @@ public class Main {
         Persona personaUno
                 = new Persona("1234", "Jhancarlos", 25, 1.81);
 
+        IO.println(personaUno.getCedula());
 
+        personaUno.setCedula("4321");
+        IO.println(personaUno.getCedula());
     }
 }
